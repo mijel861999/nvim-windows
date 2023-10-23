@@ -53,6 +53,11 @@ Plug 'leafOfTree/vim-vue-plugin'
 " Astro
 Plug 'wuelnerdotexe/vim-astro'
 
+" NerdCommenter
+Plug 'preservim/nerdcommenter'
+
+"Neo Format
+Plug 'sbdchd/neoformat'
 
 call plug#end()
 

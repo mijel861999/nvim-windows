@@ -21,3 +21,6 @@ runtime ./plug-config.vim
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 highlight Normal ctermbg=NONE
+
+" Formatear automáticamente el código al guardar
+autocmd BufWritePre * Neoformat
